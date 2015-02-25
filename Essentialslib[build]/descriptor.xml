@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension xmlns="http://ns.adobe.com/air/extension/4.0">
+	<id>com.unllimited.essentialslib</id>
+	<versionNumber>1.0.0</versionNumber>
+    <name>Essentialslib</name> 
+    <description>Mobile library</description> 
+ 	<platforms>
+   		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>Essentialslib.jar</nativeLibrary>
+				<initializer>com.unllimited.essentialslib.EssentialslibExtension</initializer>
+				<finalizer>com.unllimited.essentialslib.EssentialslibExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+	</platforms>
+</extension>
